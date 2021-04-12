@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFBC969C2622FBA300B9EC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC969B2622FBA300B9EC34 /* AppDelegate.swift */; };
+		DFBC969E2622FBA300B9EC34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC969D2622FBA300B9EC34 /* SceneDelegate.swift */; };
+		DFBC96A02622FBA300B9EC34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC969F2622FBA300B9EC34 /* ContentView.swift */; };
+		DFBC96A32622FBA300B9EC34 /* Tricker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFBC96A12622FBA300B9EC34 /* Tricker.xcdatamodeld */; };
+		DFBC96A52622FBA500B9EC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBC96A42622FBA500B9EC34 /* Assets.xcassets */; };
+		DFBC96A82622FBA500B9EC34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBC96A72622FBA500B9EC34 /* Preview Assets.xcassets */; };
+		DFBC96AB2622FBA500B9EC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBC96A92622FBA500B9EC34 /* LaunchScreen.storyboard */; };
+		DFBC96B62622FBA500B9EC34 /* TrickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC96B52622FBA500B9EC34 /* TrickerTests.swift */; };
+		DFBC96C12622FBA500B9EC34 /* TrickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC96C02622FBA500B9EC34 /* TrickerUITests.swift */; };
+		DFCCD3892623054200607C10 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = DFCCD3872623054200607C10 /* locations.json */; };
+		DFCCD38A2623054200607C10 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = DFCCD3882623054200607C10 /* tips.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBC96B22622FBA500B9EC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBC96902622FBA300B9EC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBC96972622FBA300B9EC34;
+			remoteInfo = Tricker;
+		};
+		DFBC96BD2622FBA500B9EC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBC96902622FBA300B9EC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBC96972622FBA300B9EC34;
+			remoteInfo = Tricker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFBC96982622FBA300B9EC34 /* Tricker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tricker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBC969B2622FBA300B9EC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFBC969D2622FBA300B9EC34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFBC969F2622FBA300B9EC34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFBC96A22622FBA300B9EC34 /* Tricker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tricker.xcdatamodel; sourceTree = "<group>"; };
+		DFBC96A42622FBA500B9EC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBC96A72622FBA500B9EC34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFBC96AA2622FBA500B9EC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFBC96AC2622FBA500B9EC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBC96B12622FBA500B9EC34 /* TrickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBC96B52622FBA500B9EC34 /* TrickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickerTests.swift; sourceTree = "<group>"; };
+		DFBC96B72622FBA500B9EC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBC96BC2622FBA500B9EC34 /* TrickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBC96C02622FBA500B9EC34 /* TrickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickerUITests.swift; sourceTree = "<group>"; };
+		DFBC96C22622FBA500B9EC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCCD3872623054200607C10 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		DFCCD3882623054200607C10 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBC96952622FBA300B9EC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC96AE2622FBA500B9EC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC96B92622FBA500B9EC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBC968F2622FBA300B9EC34 = {
+			isa = PBXGroup;
+			children = (
+				DFBC969A2622FBA300B9EC34 /* Tricker */,
+				DFBC96B42622FBA500B9EC34 /* TrickerTests */,
+				DFBC96BF2622FBA500B9EC34 /* TrickerUITests */,
+				DFBC96992622FBA300B9EC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBC96992622FBA300B9EC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC96982622FBA300B9EC34 /* Tricker.app */,
+				DFBC96B12622FBA500B9EC34 /* TrickerTests.xctest */,
+				DFBC96BC2622FBA500B9EC34 /* TrickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBC969A2622FBA300B9EC34 /* Tricker */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC969B2622FBA300B9EC34 /* AppDelegate.swift */,
+				DFBC969D2622FBA300B9EC34 /* SceneDelegate.swift */,
+				DFBC969F2622FBA300B9EC34 /* ContentView.swift */,
+				DFBC96A42622FBA500B9EC34 /* Assets.xcassets */,
+				DFBC96A92622FBA500B9EC34 /* LaunchScreen.storyboard */,
+				DFBC96AC2622FBA500B9EC34 /* Info.plist */,
+				DFBC96A12622FBA300B9EC34 /* Tricker.xcdatamodeld */,
+				DFCCD3872623054200607C10 /* locations.json */,
+				DFCCD3882623054200607C10 /* tips.json */,
+				DFBC96A62622FBA500B9EC34 /* Preview Content */,
+			);
+			path = Tricker;
+			sourceTree = "<group>";
+		};
+		DFBC96A62622FBA500B9EC34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC96A72622FBA500B9EC34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFBC96B42622FBA500B9EC34 /* TrickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC96B52622FBA500B9EC34 /* TrickerTests.swift */,
+				DFBC96B72622FBA500B9EC34 /* Info.plist */,
+			);
+			path = TrickerTests;
+			sourceTree = "<group>";
+		};
+		DFBC96BF2622FBA500B9EC34 /* TrickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC96C02622FBA500B9EC34 /* TrickerUITests.swift */,
+				DFBC96C22622FBA500B9EC34 /* Info.plist */,
+			);
+			path = TrickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBC96972622FBA300B9EC34 /* Tricker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC96C52622FBA500B9EC34 /* Build configuration list for PBXNativeTarget "Tricker" */;
+			buildPhases = (
+				DFBC96942622FBA300B9EC34 /* Sources */,
+				DFBC96952622FBA300B9EC34 /* Frameworks */,
+				DFBC96962622FBA300B9EC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tricker;
+			productName = Tricker;
+			productReference = DFBC96982622FBA300B9EC34 /* Tricker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBC96B02622FBA500B9EC34 /* TrickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC96C82622FBA500B9EC34 /* Build configuration list for PBXNativeTarget "TrickerTests" */;
+			buildPhases = (
+				DFBC96AD2622FBA500B9EC34 /* Sources */,
+				DFBC96AE2622FBA500B9EC34 /* Frameworks */,
+				DFBC96AF2622FBA500B9EC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBC96B32622FBA500B9EC34 /* PBXTargetDependency */,
+			);
+			name = TrickerTests;
+			productName = TrickerTests;
+			productReference = DFBC96B12622FBA500B9EC34 /* TrickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFBC96BB2622FBA500B9EC34 /* TrickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC96CB2622FBA500B9EC34 /* Build configuration list for PBXNativeTarget "TrickerUITests" */;
+			buildPhases = (
+				DFBC96B82622FBA500B9EC34 /* Sources */,
+				DFBC96B92622FBA500B9EC34 /* Frameworks */,
+				DFBC96BA2622FBA500B9EC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBC96BE2622FBA500B9EC34 /* PBXTargetDependency */,
+			);
+			name = TrickerUITests;
+			productName = TrickerUITests;
+			productReference = DFBC96BC2622FBA500B9EC34 /* TrickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBC96902622FBA300B9EC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DFBC96972622FBA300B9EC34 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DFBC96B02622FBA500B9EC34 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DFBC96972622FBA300B9EC34;
+					};
+					DFBC96BB2622FBA500B9EC34 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DFBC96972622FBA300B9EC34;
+					};
+				};
+			};
+			buildConfigurationList = DFBC96932622FBA300B9EC34 /* Build configuration list for PBXProject "Tricker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBC968F2622FBA300B9EC34;
+			productRefGroup = DFBC96992622FBA300B9EC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBC96972622FBA300B9EC34 /* Tricker */,
+				DFBC96B02622FBA500B9EC34 /* TrickerTests */,
+				DFBC96BB2622FBA500B9EC34 /* TrickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBC96962622FBA300B9EC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC96AB2622FBA500B9EC34 /* LaunchScreen.storyboard in Resources */,
+				DFBC96A82622FBA500B9EC34 /* Preview Assets.xcassets in Resources */,
+				DFCCD38A2623054200607C10 /* tips.json in Resources */,
+				DFCCD3892623054200607C10 /* locations.json in Resources */,
+				DFBC96A52622FBA500B9EC34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC96AF2622FBA500B9EC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC96BA2622FBA500B9EC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBC96942622FBA300B9EC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC96A32622FBA300B9EC34 /* Tricker.xcdatamodeld in Sources */,
+				DFBC969C2622FBA300B9EC34 /* AppDelegate.swift in Sources */,
+				DFBC969E2622FBA300B9EC34 /* SceneDelegate.swift in Sources */,
+				DFBC96A02622FBA300B9EC34 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC96AD2622FBA500B9EC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC96B62622FBA500B9EC34 /* TrickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBC96B82622FBA500B9EC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBC96C12622FBA500B9EC34 /* TrickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBC96B32622FBA500B9EC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBC96972622FBA300B9EC34 /* Tricker */;
+			targetProxy = DFBC96B22622FBA500B9EC34 /* PBXContainerItemProxy */;
+		};
+		DFBC96BE2622FBA500B9EC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBC96972622FBA300B9EC34 /* Tricker */;
+			targetProxy = DFBC96BD2622FBA500B9EC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFBC96A92622FBA500B9EC34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBC96AA2622FBA500B9EC34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFBC96C32622FBA500B9EC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFBC96C42622FBA500B9EC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBC96C62622FBA500B9EC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tricker/Preview Content\"";
+				DEVELOPMENT_TEAM = AD3RVM73QV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tricker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asn.codes.Tricker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBC96C72622FBA500B9EC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tricker/Preview Content\"";
+				DEVELOPMENT_TEAM = AD3RVM73QV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tricker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asn.codes.Tricker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFBC96C92622FBA500B9EC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD3RVM73QV;
+				INFOPLIST_FILE = TrickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asn.codes.TrickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tricker.app/Tricker";
+			};
+			name = Debug;
+		};
+		DFBC96CA2622FBA500B9EC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD3RVM73QV;
+				INFOPLIST_FILE = TrickerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asn.codes.TrickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tricker.app/Tricker";
+			};
+			name = Release;
+		};
+		DFBC96CC2622FBA500B9EC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD3RVM73QV;
+				INFOPLIST_FILE = TrickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asn.codes.TrickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tricker;
+			};
+			name = Debug;
+		};
+		DFBC96CD2622FBA500B9EC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD3RVM73QV;
+				INFOPLIST_FILE = TrickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asn.codes.TrickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tricker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBC96932622FBA300B9EC34 /* Build configuration list for PBXProject "Tricker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC96C32622FBA500B9EC34 /* Debug */,
+				DFBC96C42622FBA500B9EC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC96C52622FBA500B9EC34 /* Build configuration list for PBXNativeTarget "Tricker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC96C62622FBA500B9EC34 /* Debug */,
+				DFBC96C72622FBA500B9EC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC96C82622FBA500B9EC34 /* Build configuration list for PBXNativeTarget "TrickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC96C92622FBA500B9EC34 /* Debug */,
+				DFBC96CA2622FBA500B9EC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC96CB2622FBA500B9EC34 /* Build configuration list for PBXNativeTarget "TrickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBC96CC2622FBA500B9EC34 /* Debug */,
+				DFBC96CD2622FBA500B9EC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFBC96A12622FBA300B9EC34 /* Tricker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFBC96A22622FBA300B9EC34 /* Tricker.xcdatamodel */,
+			);
+			currentVersion = DFBC96A22622FBA300B9EC34 /* Tricker.xcdatamodel */;
+			path = Tricker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFBC96902622FBA300B9EC34 /* Project object */;
+}
